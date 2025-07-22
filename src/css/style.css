@@ -1,0 +1,66 @@
+.button{
+    color:rgb(12, 12, 12);
+    border-radius: 15px;
+    padding :10px 20px;
+    background-color: #70c8eb;
+    display: block;
+    margin: 20px auto;
+
+}
+.button:hover {
+  background-color: #cce4ee;
+}
+.pp_img{
+    width:150px;
+    height:150px;
+    border-radius:15px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
+.bio
+{text-align: center;
+font-size: medium;
+margin:20px;
+padding:2px;
+justify-content: center;
+}
+.skills_list{
+   display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+  gap: 20px; 
+  border-radius: 20px;
+  font-size: 16px;
+
+}
+.skills{
+display:flex;
+justify-content: center;
+align-items:center;
+
+}
+.personal_profile_card {
+  width: 500px;         
+  margin: 30px auto ;     
+  padding: 10px;
+  background-color: #e1e7e6; 
+ box-shadow:5px 5px 5px rgba(0, 0, 0, 0.1);
+
+  font-family: Poppins;
+}
+
+.todolist{
+    width: 500px;
+    margin: 30px auto;
+    padding: 10px;
+    background-color: #e1e7e6;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    font-family: Poppins;
+}
+.todo_input{
+    border-radius: 5px;
+    padding: 10px;
+    width: 80%;
+
+}

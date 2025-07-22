@@ -1,17 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import ToDoList from './components/todolist.jsx';
+import ProfileCard from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <ProfileCard 
+    bio="Hello! I'm Anupa Gaire, a Computer Engineering graduate from Bhaktapur, Nepal.
+    I am a beginner in web development and graphic design, combining technical skills with creativity to deliver engaging digital experiences.Passionate web designer and React learner"
+    skills={['HTML', 'CSS', 'JavaScript', 'React','Wordpress', 'Figma','Photoshop',]} />
+   <ToDoList/>
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
